@@ -196,3 +196,104 @@
     padding: 0;
     line-height: 35px;
 }
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 15px;
+}
+
+.project-info h3 {
+    margin: 0;
+    color: #6a3fbf;
+    font-size: 18px;
+}
+
+.project-info p {
+    font-size: 14px;
+    margin: 8px 0 12px;
+    color: #555;
+}
+
+.project-links a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background: #6a3fbf;
+    color: white;
+    transition: 0.3s;
+}
+
+.project-links a:hover {
+    background: #4c2b8f;
+}
+
+/* --- Social Icons Unified Style --- */
+.social {
+    display: flex;
+    gap: 0px;
+    margin-top: 10px;
+
+}
+
+.social a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: black;
+    color: #6a3fbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s, background 0.3s, color 0.3s;
+}
+
+/* Icons inside stay centered */
+.social i {
+    font-size: 18px;
+}
+
+/* Hover effect */
+.social a:hover {
+    background: #6a3fbf;
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+.social {
+    margin-bottom: 0 !important;
+}
+
+.skills,
+.tools,
+.cms,
+.tech-stack-section {
+    margin-top: 0 !important;
+}
