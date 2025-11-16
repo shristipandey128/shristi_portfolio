@@ -1,0 +1,265 @@
+.about {
+  padding: 60px 15px;
+  /* background-color: #2d2b2e; */
+  background: linear-gradient(104deg, #ba55e5 0.88%, #70c8f7 99.31%);
+}
+
+.img {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.text {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-left: 30px;
+}
+
+.text h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #000;
+}
+
+.text h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 25px;
+  color: #000;
+}
+
+.text h6 span {
+  color: #5f88e0;
+  position: relative;
+}
+
+.text h6 span::before {
+  content: "";
+  left: 0;
+  right: 90%;
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  transition: all 0.5s ease;
+}
+
+.text h6 span:hover::before {
+  content: "";
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #5f88e0;
+  bottom: 0px;
+}
+
+.text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0c0c0c;
+}
+
+.skills {
+  padding: 0px 0px;
+}
+
+.skills h6 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 25px;
+  color: #000;
+}
+
+.skills-list {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #131313
+}
+
+.fa-ul .fa-li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #060606
+}
+
+/* .social {
+  padding-top: 10px;
+} */
+
+.social a {
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0px 1px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.social a:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.social a .fa {
+  color: #fff;
+  font-size: 14px;
+}
+
+.social a .fa:hover {
+  color: #000;
+}
+
+.cv-btn a {
+  font-size: 14px;
+  color: rgb(236, 241, 250);
+  background-color: transparent;
+  border: 1px solid rgb(236, 241, 250);
+  border-radius: 4px;
+  padding: 12px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.cv-btn a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.skills {
+  margin-top: 40px;
+}
+
+.skills h6 {
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #222;
+  text-align: center;
+}
+
+.skill-category {
+  margin-bottom: 25px;
+}
+
+.skill-category h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #6a3fbf;
+  text-transform: uppercase;
+}
+
+.skill-category ul {
+  padding-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.skill-category ul li {
+  list-style: none;
+  background: #f4ecff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ffcfa3;
+  font-size: 14px;
+  color: #333;
+  transition: 0.3s;
+}
+
+.skill-category ul li:hover {
+  background: #6a3fbf;
+  color: white;
+  border-color: #6a3fbf;
+  cursor: pointer;
+}
+
+.social {
+  margin-bottom: 6px !important;
+}
+
+.skills,
+.tools,
+.cms,
+.tech-stack-section {
+  margin-top: 0 !important;
+}
+
+/* --- Social Icons Unified Style --- */
+.social {
+  display: flex;
+  gap: 8px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #6a3fbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s, background 0.3s, color 0.3s;
+}
+
+
+/* Icons inside stay centered */
+.social i {
+  font-size: 18px;
+}
+
+/* Hover effect */
+.social a:hover {
+  background: #6a3fbf;
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+.tools-and-cms,
+.skills,
+.tools,
+.cms,
+.tech-stack-section {
+  margin-top: 5px !important;
+}
+
+.social {
+  margin-bottom: 5px !important;
+  padding-bottom: 0 !important;
+}
+
+section,
+.container,
+.row {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
